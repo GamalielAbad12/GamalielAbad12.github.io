@@ -1,3 +1,51 @@
-.TituloPrincipal {
-    color: blue;
+body {
+    background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+
+.TituloPrincipalSR {
+    color: hsl(225, 68%, 28%);
+    font-size: 6rem; /*tamaño*/
+    font-weight: 400; /*grosor*/
+    font-style: normal; 
+    text-align: center; /*texto alineado*/
+    text-transform: uppercase; /*Trasformar texto en mayusculas*/
+    padding: 1rem 2rem 2rem 1rem; /*Espacio interno*/
+    margin: 10px; /*Espacio externo*/
+
+    background: hsl(43, 35%, 82%);
+    width: 1100px;
+    height: 290px;
+    box-sizing: border-box;
+    width: 80%;
+    border: 10px solid hsl(225, 68%, 28%);
+    border-radius: 10px 30px;
+}
+
+.logoPaginaSR {
+    width: 200px;
+    height: 200px;
+}
+
+.TextoLogoSR {
+    font-size: 20px;
+    background: hsl(43, 35%, 82%);
+    width: 700px;
+    height: 300px;
+
+
+}
+
+.logoPaginaSR, .TextoLogoSR {
+    display: inline;
+    margin: 10px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: hsl(240, 7%, 97%, 0.71);
+    
 }
