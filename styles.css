@@ -7,7 +7,7 @@ body {
 
 
 .TituloPrincipalSR {
-    color: hsl(225, 68%, 28%);
+    color: hsl(225, 63%, 28%);
     font-size: 6rem; /*tamaño*/
     font-weight: 400; /*grosor*/
     font-style: normal; 
@@ -16,36 +16,38 @@ body {
     padding: 1rem 2rem 2rem 1rem; /*Espacio interno*/
     margin: 10px; /*Espacio externo*/
 
-    background: hsl(43, 35%, 82%);
+    background: hsl(34, 57%, 88%);
     width: 1100px;
     height: 290px;
     box-sizing: border-box;
     width: 80%;
-    border: 10px solid hsl(225, 68%, 28%);
+    border: 10px solid hsl(225, 63%, 28%);
     border-radius: 10px 30px;
 }
 
 .logoPaginaSR {
     width: 200px;
     height: 200px;
+    border: 5px solid hsl(225, 63%, 28%);
 }
 
 .TextoLogoSR {
-    font-size: 20px;
-    background: hsl(43, 35%, 82%);
-    width: 700px;
-    height: 300px;
-
-
+    justify-content: right;
+    font-size: 45px;
+    color: hsl(225, 63%, 20%);
+    background: hsl(34, 57%, 88%);
+    border: 5px solid hsl(225, 63%, 28%);
+    padding: 4rem 4rem 4rem 1rem; 
+    width: 800px;
+    height: 80px;
 }
 
-.logoPaginaSR, .TextoLogoSR {
-    display: inline;
-    margin: 10px;
+.logoPaginaSR {
+    display: table-column;
 }
 
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: hsl(240, 7%, 97%, 0.71);
+    background: hsla(0, 0%, 100%, 0.932);
     
 }
