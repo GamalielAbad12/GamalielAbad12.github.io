@@ -2,52 +2,95 @@ body {
     background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); /* Imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir toda el área */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Asegura que no haya margen en el body */
+    padding: 0; /* Asegura que no haya relleno en el body */
 }
-
-
 
 .TituloPrincipalSR {
     color: hsl(225, 63%, 28%);
-    font-size: 6rem; /*tamaño*/
-    font-weight: 400; /*grosor*/
+    font-size: 6rem; /* Tamaño ajustado */
+    font-weight: 400; /* Grosor */
     font-style: normal; 
-    text-align: center; /*texto alineado*/
-    text-transform: uppercase; /*Trasformar texto en mayusculas*/
-    padding: 1rem 2rem 2rem 1rem; /*Espacio interno*/
-    margin: 10px; /*Espacio externo*/
-
+    text-align: center; /* Centra el texto del título */
+    text-transform: uppercase; /* Transforma texto en mayúsculas */
+    padding: 1rem 2rem; /* Espacio interno constante */
+    margin: 1.5rem auto; /* Espacio externo centrado */
     background: hsl(34, 57%, 88%);
-    width: 1100px;
-    height: 290px;
+    width: 90%; /* Ajustado al 90% del contenedor padre */
+    max-width: 1100px; /* Limita el ancho máximo */
+    height: auto; /* Ajusta la altura automáticamente */
     box-sizing: border-box;
-    width: 80%;
-    border: 10px solid hsl(225, 63%, 28%);
-    border-radius: 10px 30px;
+    border: 0.5rem solid hsl(225, 63%, 28%);
+    border-radius: 1rem 3rem; /* Bordes redondeados */
+}
+.FondoTextoLogo {
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start; /* Ajustado a start */
+    align-items: flex-start; /* Ajustado a start */
+}
+
+.ElementosLogoTexto {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem; /* Espacio entre elementos ajustado */
+    text-decoration: none;
 }
 
 .logoPaginaSR {
-    width: 200px;
-    height: 200px;
-    border: 5px solid hsl(225, 63%, 28%);
+    height: 10rem; /* Ajustado a una altura más proporcional */
+    border: 0.2rem solid hsl(225, 63%, 28%);
 }
 
 .TextoLogoSR {
-    justify-content: right;
-    font-size: 45px;
-    color: hsl(225, 63%, 20%);
     background: hsl(34, 57%, 88%);
-    border: 5px solid hsl(225, 63%, 28%);
-    padding: 4rem 4rem 4rem 1rem; 
-    width: 800px;
-    height: 80px;
+    color: hsl(225, 63%, 25%);
+    border: 0.2rem solid hsl(225, 63%, 28%);
+    width: 1000%; /* Ajustado al 70% del contenedor padre */
+    max-width: 45rem; /* Limita el ancho máximo */
+    height: auto; /* Ajusta la altura automáticamente */
+    padding: 1rem; /* Espacio interno ajustado */
+    justify-content: center;
+    font-family: 'Georgia', serif;
+    font-weight: 100;
+    font-size: 2.5rem; /* Tamaño de fuente ajustado */
 }
 
-.logoPaginaSR {
-    display: table-column;
+.FondoBotonesPrincipalesSR {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ajustado a start */
 }
 
-p{
+.BotonesPrincipalesSR {
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Alinea los botones en una fila */
+    gap: 2rem; /* Espacio entre los botones ajustado */
+    text-decoration: none;
+}
+
+.BotonPrincipal-Inicio, .BotonPrincipal-Articulos, .BotonPrincipal-SobreNosotros {
+    background: hsl(34, 57%, 88%); /* Fondo oscuro del botón */
+    color: hsl(225, 63%, 28%); /* Texto claro */
+    border: 0.2rem solid hsl(225, 63%, 28%); /* Borde del mismo color que el fondo */
+    border-radius: 0.5rem; /* Bordes ligeramente redondeados */
+    padding: 0.5rem 1rem; /* Espaciado interno ajustado */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    font-size: 1.5rem; /* Tamaño de letra ajustado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave al hacer hover */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.BotonPrincipal-Inicio:hover, .BotonPrincipal-Articulos:hover, .BotonPrincipal-SobreNosotros:hover {
+    background: hsl(225, 63%, 28%); /* Cambia el fondo al pasar el ratón */
+    color: hsl(34, 57%, 88%); /* Cambia el color del texto */
+}
+
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: hsla(0, 0%, 100%, 0.932);
-    
 }
